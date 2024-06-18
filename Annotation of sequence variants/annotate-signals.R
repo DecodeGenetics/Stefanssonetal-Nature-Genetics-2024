@@ -58,7 +58,7 @@ markers_gor <- paste0(input_folder, markers_filename)
 l <- fread(a[3], header=F)$V1
 
 # if there is no file is specified in <arg3> then annotate according to "/.../list_of_annotations.tab"
-if(is.na(l[1])){ annList <- fread("/.../list_of_annotations.tab")[freeze %in% c("any","daisy"), ][(isSNP%in%"TRUE" & (MAF%in%c("0.05")))==FALSE, ] } else { annList <- fread("/.../list_of_annotations.tab")[dataset_id %in% l] }
+if(is.na(l[1])){ annList <- fread("/.../list_of_annotations.tab")[freeze %in% c("any","daisy"), ] } else { annList <- fread("/.../list_of_annotations.tab")[dataset_id %in% l] }
 
 # exclude annotation files that have already been analysed according to files present in "output_folder"
 d <- dir(output_folder); annList <- annList[ (dataset_id %in% gsub(".gor","", d))==FALSE ]
