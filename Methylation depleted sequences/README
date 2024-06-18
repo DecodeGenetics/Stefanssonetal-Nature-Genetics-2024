@@ -1,1 +1,10 @@
+The R code in this folder will identify sequences depleted of 5-mCpG as described in Stefansson et al, Nat Genet 2024.  
 
+# Step 1
+Run "identify.R" to find sequences where there are at least three neighbouring CpG units with 5-mCpG rate <0.15, but each unit is required to be located <500bp from each other.  
+
+# Step 2
+Run "filter.R" to process and filter the output from Step #1. 
+
+# Step 3
+Run "unify.R" to unify the processed and filtered files from Step #2 into a single file.  
