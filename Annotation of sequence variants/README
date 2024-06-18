@@ -1,4 +1,4 @@
-This folder contains R code to determine whether a given genome annotation is enriched among a catalog of association signals e.g. ASMQTLs, as described in Stefansson et al, Nat Genetics 2024. 
+This folder contains R code to determine whether a catalog of association signals e.g. ASMQTLs are significantly enriched within a given annotation of the genome, as described under "ASM-QTL in functional annotation maps" in Stefansson et al, Nat Genetics 2024. 
 
 #1 Use make-commands.R to set up command lines for "run.R" and, if needed, "make-sparse-marker-lists.R" and "make-random-marker-lists.R". 
 
