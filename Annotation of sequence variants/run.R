@@ -283,7 +283,7 @@ ldclass_find <- NULL; for(w in 1:nrow(lead)){ di <- abs(gwas_index$LD_class-lead
 # set LD class to category
 lead[, LD_class_category:=ldclass_find]
 
-# load epigenome annotation files
+# load annotation files
 elistnames <- as.character(cstats[,.N,id][,id])
 
 # if SNP-based annotation, then use common variants based on threshold set in 'mafSNP' (either >0.05 or >0.01)
