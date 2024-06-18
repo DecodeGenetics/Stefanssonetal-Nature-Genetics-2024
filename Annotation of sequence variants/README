@@ -1,1 +1,5 @@
+This folder contains R code to determine whether a given genome annotation is enriched among a catalog of association signals e.g. ASMQTLs, as described in Stefansson et al, Nat Genetics 2024. 
 
+#1 Use make-commands.R to set up command lines for "run.R" and, if needed, "make-sparse-marker-lists.R" and "make-random-marker-lists.R". 
+
+#2 Use annotate-signals.R to determine which association signals overlap with an annotation dataset of interest e.g., those annotations that were found to be significantly enriched among the association signals. 
