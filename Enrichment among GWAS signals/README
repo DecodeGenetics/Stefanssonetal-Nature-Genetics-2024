@@ -1,1 +1,8 @@
+This folder contains R code to estimate the enrichment of sequence variant annotations among GWAS signals as described in Stefansson et al, Nat Genetics 2024. 
 
+The code depends on input data containing the association statistics of variants in high LD with a GWAS significant signals as well as a table of the genomic frequencies of each annotation within user specified minor allele frequency bins. 
+
+The enrichment model extends the methodology presented in Sveinbjornsson et al by accounting for the different genomic frequencies of variant annotations at different minor allele frequencies.
+ 
+References:
+Sveinbjornsson, G., Albrechtsen, A., Zink, F. et al. Weighting sequence variants based on their annotation increases power of whole-genome association studies. Nat Genet 48, 314–317 (2016). https://doi.org/10.1038/ng.3507
