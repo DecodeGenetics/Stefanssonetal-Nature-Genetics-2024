@@ -1,4 +1,4 @@
-The R code in this folder will identify sequences depleted of 5-mCpG as described under "MDSs (methylation depleted sequences)" in Stefansson et al, Nat Genet 2024.  
+The R code in this folder will identify sequences depleted of 5-mCpG as described under "MDSs (methylation depleted sequences)" in Stefansson et al, Nat Genet 2024.
 
 # Step 1
 Run "identify.R" to find sequences where there are at least three neighbouring CpG units with 5-mCpG rate <0.15, but each unit is required to be located <500bp from each other.  
